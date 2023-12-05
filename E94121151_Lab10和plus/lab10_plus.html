@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charest="UTF-8">
+    <meta name="viewport" content="width=device-width,intial-scale-1.0">
+    <title>Food Judge</title>
+</head>
+
+<body>
+
+    <h3>Score Chart</h3>
+
+    <hr>
+
+    <form action='/set' method = 'POST'>
+        Store Name <input type="text" name="store_name"/><p>
+        &ensp;&ensp;&nbsp;Score&ensp;&ensp;&ensp;<input type="text" name="score"></p><p>
+        <button>submit</button>
+        </p>
+    </form>
+    <h3>Current Data : {{data_string}}</h3>
+</body>
+</html>
